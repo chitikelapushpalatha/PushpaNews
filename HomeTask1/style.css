@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto';
+    font-size: 22px;
+    background-color: bisque;
+  }
+  .header-parent {
+    display: flex;
+    background-color: rgb(14, 14, 17);
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+  }
+  .head-1 {
+    width: 30%;
+    height: 80%;
+  }
+  #head-1-1 {
+    display: flex;
+    background-color: white;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+  }
+  #head-1-2 {
+    display: flex;
+    background-color: white;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-end;
+    font-size: x-small;
+  }
+  #head-2 {
+    display: flex;
+    height: 80px;
+    border-bottom: 2px solid black;
+  }
+  .head-2 {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+  }
+  #head-2-1 {
+    padding: 10px;
+    justify-content: flex-start;
+    font-size: small;
+  }
+  #head-2-2 {
+    align-items: center;
+    font-size: xx-large;
+  }
+  #head-2-3 {
+    padding: 10px;
+    justify-content: flex-start;
+    font-size: small;
+  }
+  .content-super-parent {
+    display: flex;
+    border-bottom: 2px solid black;
+  }
+  .image {
+    padding: 20px;
+    width: 30%;
+    font-size: medium;
+    
+  }
+  .content {
+    font-size: medium;
+    padding: 20px;
+  }
+  .button{
+    background-color:Red;
+    padding: 8px;
+  }
+  #head-2-3-1{
+    display: flex;
+  }
+  @media screen and (max-width: 415px) {
+    #head-2-2 {
+        align-items: center;
+        font-size: large;
+    }
+    #emails {
+        width:60px;
+        height:10px;
+
+    }
+  }
+  
+  
